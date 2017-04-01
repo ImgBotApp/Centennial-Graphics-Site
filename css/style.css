@@ -19,7 +19,7 @@
 }
 
 .horizontal div {
-	display: inline-block;
+	display: inline-grid;
 }
 
 /* website gallery on home page */
