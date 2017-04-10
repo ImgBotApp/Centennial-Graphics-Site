@@ -9,19 +9,6 @@
 	margin-right: 10%;
 }
 
-/* picture gallery on works page */
-
-.horizontal {
-	width: 100%;
-	height: 100%;
-	margin: 0 auto 0 auto;
-	text-align: center;
-}
-
-.horizontal div {
-	display: inline-grid;
-}
-
 /* website gallery on home page */
 
  .carousel-slider {
