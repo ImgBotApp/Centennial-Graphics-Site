@@ -1,6 +1,7 @@
-# Ubuntu Junk Files
 *~
 
-# Defualt
-/bower_components/
-/node_modules/
+# Linux System Files
+.directory
+*.kate-swp
+.fuse_hidden*
+.nfs*
