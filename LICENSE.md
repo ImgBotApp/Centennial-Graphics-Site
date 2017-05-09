@@ -1,3 +1,7 @@
+Centennial Graphics Site
+http://chsgraphics.x10host.com/
+Copyright Centennial Graphics 2016-2017
+
 The MIT License (MIT)
 
 Copyright (c) 2014-2017 Materialize
