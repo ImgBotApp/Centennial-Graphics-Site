@@ -1,0 +1,14 @@
+nav {
+	height: 80px;
+	width: 100%;
+	font-family: Montserrat;
+}
+
+nav ul {
+	float: right;
+}
+
+nav ul li {
+	display: inline-block;
+	margin: 10px;
+}
