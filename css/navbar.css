@@ -12,3 +12,7 @@ nav ul li {
 	display: inline-block;
 	margin: 10px;
 }
+
+p {
+	font-family: Montserrat;
+}
