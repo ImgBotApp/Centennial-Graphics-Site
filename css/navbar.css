@@ -16,3 +16,15 @@ nav ul li {
 p {
 	font-family: Montserrat;
 }
+
+.navitem:hover {
+	border-bottom:6px solid black;
+}
+
+.active{
+	border-bottom: 6px solid black;
+}
+
+nav ul li a{
+	color:black;
+}
