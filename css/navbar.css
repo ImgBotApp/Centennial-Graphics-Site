@@ -24,3 +24,12 @@ nav ul li {
 nav ul li a {
 	color: black;
 }
+
+#chsgraphics {
+	color: black;
+	float: right;
+	font-size: 33px;
+	padding-left: 16px;
+	padding-top: 10px;
+	font-weight: 100;
+}
