@@ -1,0 +1,2 @@
+# Error Pages
+ErrorDocument 403 /error/403.html
