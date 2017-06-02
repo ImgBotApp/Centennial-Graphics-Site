@@ -31,10 +31,15 @@
 			.dim:hover {
 				opacity: 0.5;
 			}
+
+			.parallax-container {
+				height: 30vw;
+				width: 100%;
+			}
 		</style>
 	</head>
 
-	<body>
+	<body onload="function()">
 		<nav class="white">
 
 			<a class="brand-logo" href="/" style="height: 80px">
@@ -48,6 +53,10 @@
 				<li><a class="navitem" href="/about/">ABOUT</a></li>
 			</ul>
 		</nav>
+
+		<div class="parallax-container">
+			<div class="parallax"><img src="/img/logos/Ipad.jpg" style="width: 100%"></div>
+		</div>
 
 		<center>
 			<p class="large-text">Centennial Graphics.</p>
@@ -72,7 +81,15 @@
 		</div>
 
 		<!--Materialize-->
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
 		<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
 		<script type="text/javascript" src="/js/materialize.min.js"></script>
+
+		<script>
+			$(document).ready(function(){
+				$('.parallax').parallax();
+			});
+		</script>
+
 	</body>
 </html>
