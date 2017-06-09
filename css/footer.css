@@ -1,3 +1,7 @@
 .footercalc {
-	min-height: calc(100vh - 180px);
+	min-height: calc(100vh - 261px);
+}
+
+footer {
+	height: 180px;
 }
