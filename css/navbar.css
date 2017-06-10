@@ -4,28 +4,41 @@ nav {
 	font-family: Montserrat;
 }
 
-nav ul {
-	float: right;
-}
-
-nav ul li {
-	display: inline-block;
-	margin: 10px;
-}
-
-.active, .navitem:hover {
-	border-bottom: 6px solid black;
-}
-
-nav ul li a {
-	color: black;
-}
-
 #chsgraphics {
 	color: black;
 	float: right;
 	font-size: 33px;
-	padding-left: 16px;
-	padding-top: 10px;
+	margin-left: 30px;
+	margin-top: 10px;
 	font-weight: 100;
+}
+
+#eagle-logo {
+	margin-left: 20px;
+}
+
+nav ul {
+	float: right;
+	height: 80px;
+}
+
+.brand-logo {
+	height: 80px;
+}
+
+nav ul li {
+	display: inline-block;
+	margin-top: 8px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+nav ul li a {
+	color: black;
+	padding-right: 25px;
+	padding-left: 25px;
+}
+
+.navitem:hover, .active {
+	border-bottom: 8px solid black;
 }
