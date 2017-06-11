@@ -42,3 +42,11 @@ nav ul li a {
 .navitem:hover, .active {
 	border-bottom: 8px solid black;
 }
+
+@media only screen and (max-width: 992px) {
+  nav .brand-logo {
+	  left: 0%;
+	  -webkit-transform: none;
+	  transform: none;
+  }
+}
