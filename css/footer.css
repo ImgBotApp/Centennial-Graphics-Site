@@ -1,7 +1,7 @@
 .content {
-	min-height: calc(100vh - 16vw);
+	min-height: calc(100vh - 14vw);
 }
 
 footer {
-	height: 16vw;
+	height: 14vw;
 }
