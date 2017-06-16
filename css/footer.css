@@ -1,7 +1,56 @@
 .content {
-	min-height: calc(100vh - 14vw);
+	min-height: calc(100vh - 15vw);
 }
 
 footer {
-	height: 14vw;
+	height: 15vw;
+}
+
+body > footer > div {
+	float: left;
+}
+
+#padd {
+	width: 100%;
+	padding-right: 0px;
+}
+
+div .row {
+	margin-bottom: 0px;
+}
+
+#footer-right {
+	color: #B2B2B2;
+	font-size: 1.2vw;
+	padding-top: 4vw;
+	text-align: left;
+	font-weight: 400;
+}
+
+#footer-mid {
+	color:#666666;
+	font-size: 1.2vw;
+	margin-bottom: 0px;
+	margin-top: 0px;
+}
+
+#footer-left1 {
+	color: #B2B2B2;
+	font-size: 2vw;
+	text-align: right;
+	padding-top: 2.2vw;
+	margin-bottom: 0px;
+}
+
+#footer-left2 {
+	font-size: 1.2vw;
+	color: #B2B2B2;
+	text-align: right;
+	margin-top: 0px;
+}
+
+#footer-eagle {
+	width: 8vw;
+	padding-top: 14px;
+	opacity: .3
 }
