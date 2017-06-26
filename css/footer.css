@@ -54,3 +54,7 @@ div .row {
 	padding-top: 14px;
 	opacity: .3
 }
+
+center > p > strong > a {
+	color: #666666;
+}
