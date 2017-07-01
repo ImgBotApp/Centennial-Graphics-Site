@@ -8,11 +8,18 @@ footer {
 
 body > footer > div {
 	float: left;
+    background-color: #414042;
+    width:37.5%;
 }
 
 #padd {
 	width: 100%;
 	padding-right: 0px;
+}
+
+#middlediv {
+    background-color: #333132;
+    width:25%;
 }
 
 div .row {
