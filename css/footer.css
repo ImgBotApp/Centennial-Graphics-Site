@@ -23,10 +23,10 @@ body > footer > div {
 
 #middlediv {
 	background: #333132;
-	background: -webkit-linear-gradient(#282728, #333132, #333132, #333132, #333132, #333132, #333132);
-	background: -o-linear-gradient(#282728, #333132, #333132, #333132, #333132, #333132, #333132);
-	background: -moz-linear-gradient(#282728, #333132, #333132, #333132, #333132, #333132, #333132);
-	background: linear-gradient(#282728, #333132, #333132, #333132, #333132, #333132, #333132);
+	background: -webkit-linear-gradient(#242324, #333132, #333132, #333132, #333132, #333132, #333132);
+	background: -o-linear-gradient(#242324, #333132, #333132, #333132, #333132, #333132, #333132);
+	background: -moz-linear-gradient(#242324, #333132, #333132, #333132, #333132, #333132, #333132);
+	background: linear-gradient(#242324, #333132, #333132, #333132, #333132, #333132, #333132);
 	width:25%;
 }
 
@@ -37,7 +37,7 @@ div .row {
 #footer-right {
 	color: #B2B2B2;
 	font-size: 1.2vw;
-	padding-top: 4vw;
+	padding-top: 3.5vw;
 	text-align: left;
 	font-weight: 400;
 }
