@@ -20,17 +20,25 @@
 		<link type="text/css" rel="stylesheet" href="/css/footer.css">
 
 		<style>
-			.banner-img {
-				width: 100%;
-			}
-
 			.img-row {
 				width: 33.33333333%;
 				float: left;
+				overflow: hidden;
 			}
 
-			.dim:hover {
-				opacity: 0.5;
+			.img-row img {
+				width: 100%;
+				filter: brightness(70%);
+				-moz-transition: all 0.3s;
+				-webkit-transition: all 0.3s;
+				transition: all 0.3s;
+			}
+
+			.img-row:hover img {
+				filter: brightness(100%);
+				-moz-transform: scale(1.1);
+				-webkit-transform: scale(1.1);
+				transform: scale(1.1);
 			}
 
 			.parallax-container {
@@ -70,30 +78,27 @@
 			<div id="chs-graphics-text">
 				<img src="img/Viola.jpg" width="39%" style="float: right; padding-top: 1%;">
 
-				<br>
-
-				<p class="large-text">Centennial Graphics.</p>
+				<br><p class="large-text">Centennial Graphics.</p>
 
 				<p class="small-text">An aspiring group of high school students.<br>
 				A devotion based on interest.<br>
 				A group driven by experience.</p>
-
 				<br><br><br>
 			</div>
 
 			<br>
 
 			<div style="padding-bottom: 33.3333333%">
-				<a class="img-row dim" href="/works/">
-					<center><img class="banner-img" src="/img/logos/AV-Turquoise.png"></center>
+				<a class="img-row" href="/works/">
+					<center><img src="/img/logos/AV-Turquoise.png"></center>
 				</a>
 
-				<a class="img-row dim" href="/works/">
-					<center><img class="banner-img" src="/img/WebsiteSample.jpg"></center>
+				<a class="img-row" href="/works/">
+					<center><img src="/img/WebsiteSample.jpg"></center>
 				</a>
 
-				<a class="img-row dim" href="/works/">
-					<center><img class="banner-img" src="/img/CHS.png"></center>
+				<a class="img-row" href="/works/">
+					<center><img src="/img/CHS.png"></center>
 				</a>
 			</div>
 		</div>
