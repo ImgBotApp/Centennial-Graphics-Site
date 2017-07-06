@@ -4,13 +4,17 @@ nav {
 	font-family: Montserrat;
 }
 
-#chsgraphics {
+#chs {
 	color: black;
 	float: right;
 	font-size: 33px;
 	margin-left: 30px;
 	margin-top: 10px;
 	font-weight: 100;
+}
+
+#graphics {
+	font-weight: 400;
 }
 
 #eagle-logo {
