@@ -1,7 +1,10 @@
-*~
-
 # Linux System Files
 .directory
-*.kate-swp
 .fuse_hidden*
 .nfs*
+
+# Text Editors
+*~
+*.kate-swp
+.swo
+.swp
