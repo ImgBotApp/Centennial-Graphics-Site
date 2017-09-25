@@ -1,5 +1,5 @@
 Centennial Graphics Site
-http://chsgraphics.x10host.com/
+http://chsgraphics.ml/
 Copyright Centennial Graphics 2016-2017
 
 The MIT License (MIT)

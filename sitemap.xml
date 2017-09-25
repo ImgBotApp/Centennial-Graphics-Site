@@ -3,21 +3,21 @@
 
 	<!--Home Page-->
 	<url>
-		<loc>http://chsgraphics.x10host.com/</loc>
+		<loc>http://chsgraphics.ml/</loc>
 		<changefreq>daily</changefreq>
 		<priority>1.0</priority>
 	</url>
 
 	<!--Works Page-->
 	<url>
-		<loc>http://chsgraphics.x10host.com/works/</loc>
+		<loc>http://chsgraphics.ml/works/</loc>
 		<changefreq>daily</changefreq>
 		<priority>0.8</priority>
 	</url>
 
 	<!--About Page-->
 	<url>
-		<loc>http://chsgraphics.x10host.com/about/</loc>
+		<loc>http://chsgraphics.ml/about/</loc>
 		<changefreq>daily</changefreq>
 		<priority>0.8</priority>
 	</url>
