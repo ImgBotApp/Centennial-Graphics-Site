@@ -17,17 +17,24 @@ nav {
 	font-weight: 400;
 }
 
-#eagle-logo {
-	margin-left: 20px;
-}
-
 nav ul {
 	float: right;
 	height: 80px;
 }
 
-.brand-logo {
+nav .brand-logo {
 	height: 80px;
+}
+
+#logo-desktop {
+	margin-left: 20px;
+}
+
+#logo-mobile {
+	/* center image */
+	left: 50%;
+	-webkit-transform: translateX(-50%);
+	transform: translateX(-50%);
 }
 
 nav ul li {
@@ -47,10 +54,7 @@ nav ul li a {
 	border-bottom: 8px solid black;
 }
 
-@media only screen and (max-width: 992px) {
-  nav .brand-logo {
-	  left: 0%;
-	  -webkit-transform: none;
-	  transform: none;
-  }
+nav .button-collapse > .material-icons {
+	color: #666666;
+	line-height: 80px;
 }

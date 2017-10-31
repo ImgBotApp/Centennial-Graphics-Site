@@ -24,18 +24,31 @@
 		<div class="content">
 			<!--Navbar-->
 			<nav class="white">
-				<a class="brand-logo" href="/">
-					<img id="eagle-logo" src="/img/logos/CG-NavBar.png">
-					<span id="chs">CHS<span id="graphics">GRAPHICS</span></span>
+				<!--Desktop Logo-->
+				<a class="desktop brand-logo" id="logo-desktop" href="/">
+					<img class="desktop" src="/img/logos/CG-NavBar.png">
+					<span class="desktop" id="chs">CHS<span id="graphics">GRAPHICS</span></span>
 				</a>
 
-				<ul>
+				<!--Mobile Logo-->
+				<a class="mobile brand-logo" id="logo-mobile" href="/">
+					<img class="mobile" src="/img/logos/CG-NavBar.png">
+				</a>
+
+				<!--Dekstop Navbar Contents-->
+				<ul class="desktop">
 					<li><a class="navitem" href="/">HOME</a></li>
 					<li><a class="navitem" href="/works/">WORKS</a></li>
-					<li class="navitem"><a href="/about/">ABOUT</a></li>
+					<li><a class="navitem" href="/about/">ABOUT</a></li>
 				</ul>
+
+				<!--Mobile Menu Button-->
+				<div class="mobile">
+					<a href="#" data-activates="mobile-menu" class="button-collapse"><i class="material-icons">menu</i></a>
+				</div>
 			</nav>
 
+			<!--Error Message-->
 			<center>
 				<p class="large-text">Error 403</p>
 				<p style="margin-bottom: 0px;" class="small-text">Forbidden</p>
