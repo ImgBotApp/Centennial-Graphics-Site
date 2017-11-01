@@ -27,6 +27,7 @@
 	<body>
 		<div class="content">
 			<!--Navbar-->
+			<!--Navbar-->
 			<nav class="white">
 				<!--Desktop Logo-->
 				<a class="desktop brand-logo" id="logo-desktop" href="/">
@@ -51,6 +52,13 @@
 					<a href="#" data-activates="mobile-menu" class="button-collapse"><i class="material-icons">menu</i></a>
 				</div>
 			</nav>
+
+			<!--Mobile Menu Contents-->
+			<ul class="mobile side-nav" id="mobile-menu">
+				<li><a href="/">HOME</a></li>
+				<li class="active"><a href="/works/">WORKS</a></li>
+				<li><a href="/about/">ABOUT</a></li>
+			</ul>
 
 			<center>
 				<p class="large-text">Work in Progress</p>
@@ -111,5 +119,15 @@
 		<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
 		<script type="text/javascript" src="/js/materialize.min.js"></script>
 		<script type="text/javascript" src="/js/mobile.js"></script>
+
+		<!--Initialize-->
+		<script type="text/javascript">
+			$(document).ready(function()
+			{
+				if (isMobile()) {
+					$(".button-collapse").sideNav();
+				}
+			});
+		</script>
 	</body>
 </html>

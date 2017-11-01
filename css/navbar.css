@@ -50,7 +50,7 @@ nav ul li a {
 	padding-left: 25px;
 }
 
-.navitem:hover, .active {
+nav .navitem:hover, nav .active {
 	border-bottom: 8px solid black;
 }
 
