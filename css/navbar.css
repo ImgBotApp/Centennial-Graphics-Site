@@ -37,6 +37,10 @@ nav .brand-logo {
 	transform: translateX(-50%);
 }
 
+#logo-mobile img {
+	height: 80px;
+}
+
 nav ul li {
 	display: inline-block;
 	margin-top: 8px;
